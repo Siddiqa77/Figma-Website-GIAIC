@@ -23,7 +23,7 @@ const Projectpage = () => {
       </div>
     </div>
   </div>
-  <div className="w-[400px] h-[120px] left-[700px] top-[150px] absolute text-black text-base font-light font-['Roboto'] leading-[25px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+  <div className="w-[400px] h-[120px] left-[700px] top-[150px] absolute text-black text-base font-light font-['Roboto'] leading-[25px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
 </div>
 <br />
 <div className="w-[1170px] h-[435px] relative ml-[150px] mt-[40px]">
@@ -41,7 +41,7 @@ const Projectpage = () => {
       </div>
     </div>
   </div>
-  <div className="w-[400px] h-[120px] left-[700px] top-[150px] absolute text-black text-base font-light font-['Roboto'] leading-[25px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+  <div className="w-[400px] h-[120px] left-[700px] top-[150px] absolute text-black text-base font-light font-['Roboto'] leading-[25px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
 </div>
 <br />
 <div className="w-[1170px] h-[435px] relative ml-[150px] mt-[40px]">
@@ -59,7 +59,7 @@ const Projectpage = () => {
       </div>
     </div>
   </div>
-  <div className="w-[400px] h-[120px] left-[700px] top-[150px] absolute text-black text-base font-light font-['Roboto'] leading-[25px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+  <div className="w-[400px] h-[120px] left-[700px] top-[150px] absolute text-black text-base font-light font-['Roboto'] leading-[25px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
 </div>
    </div>
   )
