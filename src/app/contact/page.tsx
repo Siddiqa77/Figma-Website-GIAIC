@@ -2,24 +2,40 @@ import React from 'react'
 
 const Contactinfo = () => {
   return (
-   <section>
-   <div className="h-32 flex-col justify-start items-start inline-flex">
-  <div className="text-[#bdbdbd] text-[64px] font-light font-['Roboto'] leading-[64px]">Contact</div>
-  <div className="text-[#333333] text-[64px] font-bold font-['Roboto'] leading-[64px]">Information</div>
-</div>
-<div><span className="text-[#333333] text-lg font-bold font-['Roboto']">Company Name<br/></span><span className="text-[#333333] text-base font-light font-['Roboto'] leading-snug">1234 Sample Street Austin Texas 76401</span></div>
-<div className="text-[#333333] text-lg font-bold font-['Roboto']">512.333.2222</div>
-<div className="text-[#333333] text-base font-light font-['Roboto']">sampleemail@gmail.com</div>
-<div className="w-[221.81px] h-[71px] relative">
-  <div className="w-[222px] h-[71px] left-0 top-0 absolute bg-[#333333]" />
-  <div className="left-[71px] top-[30px] absolute text-white text-xs font-normal font-['Roboto'] uppercase leading-3 tracking-widest">Contact US</div>
-</div>
-<img className="w-[790px] h-[483px] border border-black" src="/image 14.png" />
-<div className="w-[55px] h-[55px] relative">
-  <div className="w-[55px] h-[55px] left-0 top-0 absolute bg-[#cecece]/75 rounded-full" />
-  <div className="w-[30px] h-[30px] left-[13px] top-[13px] absolute bg-[#333333] rounded-full" />
-</div>
-   </section>
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+    <div className="container mx-auto px-6 lg:px-20">
+      <div className="grid lg:grid-cols-2 gap-8 items-center">
+        {/* Left Section - Contact Information */}
+        <div>
+          <h2 className="text-gray-400 text-3xl font-light mb-2">
+            Contact
+          </h2>
+          <h1 className="text-4xl font-bold mb-6">Information</h1>
+  
+          <p className="font-semibold text-lg">Company Name</p>
+          <p className="text-gray-600 mb-4">
+            1234 Sample Street, Austin, Texas 76401
+          </p>
+  
+          <p className="text-2xl font-bold mb-2">512.333.2222</p>
+          <p className="text-gray-600 mb-8">sampleemail@gmail.com</p>
+  
+          <button className="bg-black text-white px-8 py-3 font-semibold hover:bg-gray-800 transition">
+            Contact Us
+          </button>
+        </div>
+  
+        {/* Right Section - Embedded Image */}
+        <div className="w-full h-auto flex justify-center items-center">
+          <img
+            src="image 14.png"
+            alt="Location Map"
+            className="w-full max-w-[600px] h-auto rounded-md shadow-lg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
   )
 }
 

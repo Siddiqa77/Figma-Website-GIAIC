@@ -6,7 +6,7 @@ const Hero = () => {
         <section className="flex flex-col md:flex-row items-center justify-between py-10 px-6 md:px-16 bg-white">
           {/* Left Side - Title and Navigation */}
           <div className="flex flex-col items-start md:w-1/2 space-y-4">
-            <div className='ml-[100px]'>
+            <div className='ml-[90px]'>
               <h2 className="text-[64px] text[Roboto] font-light  text-gray-500">PROJECT</h2>
               <h1 className="text-[64px] text[Roboto] font-bold text-gray-800">Lorum</h1>
             </div>
